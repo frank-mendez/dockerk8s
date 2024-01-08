@@ -16,12 +16,12 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
   res.send(`
     <html>
-      <head>
+      <head> 
         <link rel="stylesheet" href="styles.css">
       </head>
       <body>
         <section>
-          <h2>My Course Goal</h2>
+          <h2>My Course Goal!!!!</h2>
           <h3>${userGoal}</h3>
         </section>
         <form action="/store-goal" method="POST">
